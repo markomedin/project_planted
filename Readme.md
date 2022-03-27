@@ -28,10 +28,10 @@
   a new terminal, and running commands one at a time:
 
   
-    bin/kafka-topics.sh --delete --topic myTopic --bootstrap-server localhost:9092
+    bin/kafka-topics.sh --create --topic myTopic --bootstrap-server localhost:9092
 
   
-    bin/kafka-topics.sh --delete --topic myResultTopic --bootstrap-server localhost:9092
+    bin/kafka-topics.sh --create --topic myResultTopic --bootstrap-server localhost:9092
 
 #While in the project_planted folder
 
